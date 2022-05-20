@@ -1,4 +1,4 @@
 <footer>
-  <p>Author:Abednego Dadzie<br>
-  <a href="mailto:kbaah489@gmail.com">kbaah489@gmail.com</a></p>
+  <p>Author: Techone Solution<br>
+  <a href="mailto:demo@gmail.com">demo@gmail.com</a></p>
 </footer>

@@ -14,7 +14,7 @@ require_once("include\config.php");
     </a>
 	</div>
 	<div class="rightDiv">
-		<marquee behavior="scroll" style="color:red;" direction="left"><b>Find A Job at Ghana's No.1 Job Site , Best Places to Work , Search Jobs on the Go !! ,
+		<marquee behavior="scroll" style="color:red;" direction="left"><b>Find A Job at India's No.1 Job Site , Best Places to Work , Search Jobs on the Go !! ,
 			Get best matched jobs directly in your mail. Tell us what kind of a job you are looking out for and stay updated with latest opportunities.
 		</b></marquee>
 		<ul class="topnav">
