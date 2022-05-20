@@ -1,0 +1,142 @@
+.hompagecontainer{
+	/*border:1px solid #000;*/
+}
+.topContainer{
+	width:100%;
+}
+.leftDiv {
+  
+	width:49%;
+  
+}
+.leftDiv img{
+	width:100px;
+	height:100px;
+}
+
+body {margin: 0; font-family: helvetica;}
+
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {background-color: #111;}
+
+ul.topnav li a.active {background-color: #4CAF50;}
+
+ul.topnav li.right {float: right;}
+
+@media screen and (max-width: 600px) {
+  ul.topnav li.right, 
+  ul.topnav li {float: none;}
+}
+li a:hover:not(.active) {
+  background-color: #ddd;
+}
+
+li a.active {
+  color: white;
+  background-color: #4CAF50;
+}
+
+.bannerDiv img{
+	padding:0 0px;
+	margin:0 auto;
+	clear:both;
+	width: 100%;
+}
+.searchDiv {
+	display:inline-block;
+	/*margin: 0 auto;*/
+	/*border:2px solid gray;*/
+	bottom: 10%;
+	/*margin:0px 200px;*/
+	clear:both;
+	width:100%;
+	text-align: center;
+}
+.searchDiv input{
+ 	padding:2%;
+ 	margin:1%;
+}
+
+.searchDiv .titlesearch{
+ 	width:40%;
+}
+
+.btnSearch{
+	padding:2%;
+ 	margin:1%;
+}
+
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: #000;
+  color: white;
+  display: block;
+}
+
+.searchDiv input[type=text] {
+  border: 2px solid gray;
+  border-radius: 4px;
+}
+
+.bottomBorder img{
+	width:100%;
+}
+.divtitle{
+  border: 1px solid #000;
+  border-radius:5px;
+  width: 71%;
+  padding: 5px;
+  margin: 0 auto;
+}
+
+.divtitle span{
+  font-family: helvetica;
+  font-weight: bold;
+}
+
+.mainDiv{
+  display:inline-block;
+  width:100%;
+  padding:5%;
+}
+
+.mainDiv.mainLeftDiv{
+  display:inline-block;
+  width:40%;
+  text-align:center;
+}
+.mainDiv.mainRightDiv{
+  display:inline-block;
+  width:50%;
+}
+
+/*jssor slider loading skin spin css*/
+.jssorl-009-spin img {
+    animation-name: jssorl-009-spin;
+    animation-duration: 1.6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes jssorl-009-spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
